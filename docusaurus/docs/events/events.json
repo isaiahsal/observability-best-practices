@@ -63,6 +63,22 @@
     ]
   },
   {
+    "theme": "Amazon CloudWatch Omni",
+    "level": 200,
+    "format": "Hands-on workshop",
+    "name": "Beat the Agent: Developer Happy Hour with Amazon CloudWatch Omni",
+    "description": "This happy hour is a relaxed setting to talk with peers and AWS experts about how Amazon CloudWatch Omni brings your telemetry into one place, and how you can use that data to build and run agents that help detect, investigate, and resolve issues",
+    "date": "Tue 1 Dec",
+    "time": "02:00 – 04:00 UTC",
+    "location": "Online",
+    "registerUrl": "https://aws-experience.com/amer/smb/e/06216/beat-the-agent-developer-happy-hour-with-amazon-cloudwatch-omni",
+    "additionalDates": [],
+    "topics": [
+      "cloudwatch",
+      "apm"
+    ]
+  },
+  {
     "theme": "One Observability Workshop",
     "level": 300,
     "format": "Hands-on workshop",
@@ -147,22 +163,6 @@
     "theme": "CloudWatch Fundamentals & What's New",
     "level": 200,
     "format": "Technical talk",
-    "name": "Optimize EKS & GPU Utilization and Cost with Amazon CloudWatch (EMEA)",
-    "description": "Discover the latest Amazon CloudWatch Container Insights capabilities: agentless OTel collection, PromQL, GPU & accelerated-compute monitoring, and cost-efficient telemetry for EKS, multicloud, and on-prem.",
-    "date": "Mon 16 Nov",
-    "time": "15:00 – 16:00 UTC",
-    "location": "Online",
-    "registerUrl": "https://aws-experience.com/emea/smb/e/5cc81/optimize-eks--gpu-utilization-and-cost-with-amazon-cloudwatch-emea",
-    "additionalDates": [],
-    "topics": [
-      "cloudwatch",
-      "general"
-    ]
-  },
-  {
-    "theme": "CloudWatch Fundamentals & What's New",
-    "level": 200,
-    "format": "Technical talk",
     "name": "Optimize EKS & GPU Utilization and Cost with Amazon CloudWatch (APJ)",
     "description": "Discover the latest Amazon CloudWatch Container Insights capabilities: agentless OTel collection, PromQL, GPU & accelerated-compute monitoring, and cost-efficient telemetry for EKS, multicloud, and on-prem.",
     "date": "Wed 18 Nov",
@@ -228,66 +228,6 @@
   {
     "theme": "DevOps Agent",
     "level": 300,
-    "format": "Hands-on workshop",
-    "name": "AWS DevOps Agent Workshop",
-    "description": "Hands-on workshop with workloads across Lambda, EC2, ECS, EKS, and AI/ML workloads.",
-    "date": "Mon 16 Nov",
-    "time": "09:30 – 11:30 UTC",
-    "location": "Online",
-    "registerUrl": "https://aws-experience.com/amer/smb/e/9843d/aws-devops-agent-workshop",
-    "additionalDates": [
-      {
-        "date": "Tue 17 Nov",
-        "time": "17:30 – 19:30 UTC",
-        "location": "Online",
-        "registerUrl": "https://aws-experience.com/amer/smb/e/e1a8c/aws-devops-agent-workshop"
-      },
-      {
-        "date": "Tue 8 Dec",
-        "time": "04:00 – 06:00 UTC",
-        "location": "Online",
-        "registerUrl": "https://aws-experience.com/apj/smb/e/dee0b/aws-devops-agent-workshop"
-      },
-      {
-        "date": "Wed 9 Dec",
-        "time": "09:30 – 11:30 UTC",
-        "location": "Online",
-        "registerUrl": "https://aws-experience.com/emea/smb/e/78170/aws-devops-agent-workshop"
-      },
-      {
-        "date": "Thu 10 Dec",
-        "time": "17:30 – 19:30 UTC",
-        "location": "Online",
-        "registerUrl": "https://aws-experience.com/amer/smb/e/515a4/aws-devops-agent-workshop"
-      },
-      {
-        "date": "Tue 5 Jan",
-        "time": "04:00 – 06:00 UTC",
-        "location": "Online",
-        "registerUrl": "https://aws-experience.com/apj/smb/e/ec815/aws-devops-agent-workshop"
-      },
-      {
-        "date": "Wed 6 Jan",
-        "time": "17:30 – 19:30 UTC",
-        "location": "Online",
-        "registerUrl": "https://aws-experience.com/amer/smb/e/529d4/aws-devops-agent-workshop"
-      },
-      {
-        "date": "Thu 14 Jan",
-        "time": "09:30 – 11:30 UTC",
-        "location": "Online",
-        "registerUrl": "https://aws-experience.com/emea/smb/e/06b1e/aws-devops-agent-workshop"
-      }
-    ],
-    "topics": [
-      "devops-agent",
-      "aiops",
-      "cloudwatch"
-    ]
-  },
-  {
-    "theme": "DevOps Agent",
-    "level": 300,
     "format": "Technical talk",
     "name": "AWS DevOps Agent + Database Insights: Detect, Diagnose, and Resolve Database Issues",
     "description": "Join us for a 60-minute live session exploring how AWS DevOps Agent and CloudWatch Database Insights can work together to fundamentally shift your database operations from reactive incident response to proactive, automated management",
@@ -331,6 +271,60 @@
       "devops-agent",
       "aiops",
       "databases",
+      "cloudwatch"
+    ]
+  },
+  {
+    "theme": "DevOps Agent",
+    "level": 300,
+    "format": "Hands-on workshop",
+    "name": "AWS DevOps Agent Workshop",
+    "description": "Hands-on workshop with workloads across Lambda, EC2, ECS, EKS, and AI/ML workloads.",
+    "date": "Tue 17 Nov",
+    "time": "17:30 – 19:30 UTC",
+    "location": "Online",
+    "registerUrl": "https://aws-experience.com/amer/smb/e/e1a8c/aws-devops-agent-workshop",
+    "additionalDates": [
+      {
+        "date": "Tue 8 Dec",
+        "time": "04:00 – 06:00 UTC",
+        "location": "Online",
+        "registerUrl": "https://aws-experience.com/apj/smb/e/dee0b/aws-devops-agent-workshop"
+      },
+      {
+        "date": "Wed 9 Dec",
+        "time": "09:30 – 11:30 UTC",
+        "location": "Online",
+        "registerUrl": "https://aws-experience.com/emea/smb/e/78170/aws-devops-agent-workshop"
+      },
+      {
+        "date": "Thu 10 Dec",
+        "time": "17:30 – 19:30 UTC",
+        "location": "Online",
+        "registerUrl": "https://aws-experience.com/amer/smb/e/515a4/aws-devops-agent-workshop"
+      },
+      {
+        "date": "Tue 5 Jan",
+        "time": "04:00 – 06:00 UTC",
+        "location": "Online",
+        "registerUrl": "https://aws-experience.com/apj/smb/e/ec815/aws-devops-agent-workshop"
+      },
+      {
+        "date": "Wed 6 Jan",
+        "time": "17:30 – 19:30 UTC",
+        "location": "Online",
+        "registerUrl": "https://aws-experience.com/amer/smb/e/529d4/aws-devops-agent-workshop"
+      },
+      {
+        "date": "Thu 14 Jan",
+        "time": "09:30 – 11:30 UTC",
+        "location": "Online",
+        "registerUrl": "https://aws-experience.com/emea/smb/e/06b1e/aws-devops-agent-workshop"
+      }
+    ],
+    "topics": [
+      "devops-agent",
+      "aiops",
       "cloudwatch"
     ]
   },
